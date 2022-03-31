@@ -1,11 +1,39 @@
+:root {
+  --header-color: #212121;
+  --first-title-color: #212121;
+  --second-title-color: #757575;
+  --first-btn-color: #ffffff;
+  --accent-color: #2196f3;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
 .list {
   list-style: none;
 }
+                                                             /* HEADER */
+
 .header {
-  background-color: #212121;
+  background-color: #ffffff;
+}
+.header-logo{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.header-logo-web{
+  font-family: 'Raleway',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,
+  19px;
+  letter-spacing: 0.03em;
+  color: #2196F3;
 }
 .link {
   text-decoration: none;
@@ -15,6 +43,173 @@ body {
   font-size: 14px;
   line-height: 1, 14px;
   letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+.header-link:hover,
+.header-link:focus
+{
+  color: var(--accent-color);
+}
+.header-tel, .header-adres {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
 
+.header-adres:hover,
+.header-adres:focus{
+  color: var(--accent-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+                                                            /* HERO */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1,36px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1,87px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--first-btn-color);
+}
+
+                                                            /* ABOUT */
+.about {
+  background-color: #E5E5E5;
+}
+.about-title-text{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1,14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: var(--first-title-color);
+
+}
+.about-item-text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,71px;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+                                                            /* PRICES */
+.prices{
+  background-color:#E5E5E5;
+}
+.prices-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1,16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+}
+                                                            /* COMMAND */
+.command{
+  background-color: #F5F4FA;
+}
+
+.command-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1,16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: var(--first-title-color);
+
+}
+
+.command-title-text{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,18px;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #212121;
+
+}
+.command-item-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+
+}
+                                                            /* FOOTER */
+
+.footer{
+background-color: #2F303A;
+}
+.footer-logo{
+  font-family: 'Raleway',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,19px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-logo-web {
+  font-family: 'Raleway',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,19px;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+.footer-link{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,71px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF
+
+}
+.footer-adres,.footer-tel{
+font-weight: 400;
+font-size: 14px;
+line-height: 1,71px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+
+}
+.footer-link:hover,
+.footer-link:focus{
+  color: var(--accent-color);
+}
+.footer-tel:hover,
+.footer-tel:focus{
+  color: var(--accent-color);
+}
+.footer-adres:hover,
+.footer-adres:focus{
+  color: var(--accent-color);
 }
