@@ -113,6 +113,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--first-btn-color);
+  border-radius: 4px;
 }
 
                                                             /* ABOUT */
@@ -138,7 +139,7 @@ body {
 }
                                                             /* PRICES */
 .prices{
-  background-color:var(--backg-color);
+  background-color:var(--first-btn-color );
 }
 .prices-title{
   font-weight: 700;
@@ -150,7 +151,7 @@ body {
 }
                                                             /* COMMAND */
 .command{
-  background-color: var(--first-btn-color);
+  background-color: var(--backg-color2);
 }
 
 .command-title{
@@ -181,6 +182,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 
+}
+.command-img{
+  background-color: var(--first-btn-color);
 }
                                                             /* FOOTER */
 
@@ -216,7 +220,6 @@ background-color: #2F303A;
 
 }
 .footer-adres,.footer-tel{
-font-weight: 400;
 font-size: 14px;
 line-height:1.71;
 letter-spacing: 0.03em;
@@ -238,7 +241,7 @@ color: rgba(255, 255, 255, 0.6);
                                                             /* PORTFOLIO.HTML */
                                                             /* HERO 1 */
 .hero1{
-  background-color: var(--backg-color);
+  background-color: var(--first-btn-color);
 }
 .hero1-btn.btn1{
   background-color: var(--accent-color);
@@ -258,6 +261,7 @@ color: rgba(255, 255, 255, 0.6);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-title-color);
+  border-radius: 4px;
 }
 .hero1-btn:hover,
 .hero1-btn:focus{
